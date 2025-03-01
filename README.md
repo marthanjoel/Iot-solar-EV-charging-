@@ -32,7 +32,8 @@ https://github.com/user-attachments/assets/7ba59364-288c-4c25-86f4-bed7e43140ff
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/SolarEV-IoT.git
+[git clone https://github.com/your-username/SolarEV-IoT.git]
+(https://github.com/kashiling507/Solar-EV-Charging-IoT-System/blob/main/README.md)
 cd SolarEV
 
 2️⃣ Setup the Database
