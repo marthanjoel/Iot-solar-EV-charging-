@@ -22,7 +22,11 @@ The **Solar EV Charging IoT System** is a smart and energy-efficient **electric 
 - **Firebase / MQTT** – Real-time updates (optional)  
 
 ## 📸 Project Screenshots  
-*(Add images of the web interface, hardware setup, and working system here.)*  
+
+
+https://github.com/user-attachments/assets/7ba59364-288c-4c25-86f4-bed7e43140ff
+
+ 
 
 ## 🔧 Installation & Setup  
 
