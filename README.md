@@ -1,59 +1,113 @@
-# Solar-EV-Charging-IoT-System
-🚀 "An IoT-powered smart solar EV charging system with real-time monitoring, booking, and payment integration."
+# 🌞 Solar EV Charging IoT System
 
-# 🚗🔋 Solar EV Charging IoT System  
+🚗🔋 **An IoT-powered smart solar EV charging system with real-time monitoring, booking, and payment integration.**
 
-## 🌟 Overview  
-The **Solar EV Charging IoT System** is a smart and energy-efficient **electric vehicle (EV) charging solution** powered by **solar energy**. It integrates **IoT technology** for **real-time monitoring, user booking, and remote control**, ensuring seamless management of the charging process.  
+---
 
-## 🎯 Features  
-- ✅ **Smart Charging** – Automated charging based on solar availability  
-- ✅ **IoT Integration** – Uses ESP32 for real-time monitoring  
-- ✅ **User Booking System** – Web-based booking & status tracking  
-- ✅ **Mobile App Support** – Remote control & live updates  
-- ✅ **Energy Efficiency** – Optimized solar power utilization  
-- ✅ **Secure Authentication** – User login & admin panel  
+## 📌 Project Overview
+The **Solar EV Charging IoT System** is a smart and energy-efficient solution for electric vehicle (EV) charging powered by solar energy. It integrates IoT technology for **real-time monitoring, automated charging, and user booking**, ensuring efficient energy usage and convenience.
 
-## 🛠️ Technologies Used  
-- **ESP32 / NodeMCU** – IoT microcontroller  
-- **Solar Panels** – Renewable energy source  
-- **PHP & MySQL** – Backend for managing bookings  
-- **HTML, CSS, Bootstrap** – Web UI  
-- **Firebase / MQTT** – Real-time updates (optional)  
-
-## 📸 Project Screenshots  
+**Key Features:**
+- ⚡ **Smart Charging** – Automated charging based on solar availability  
+- 🌐 **IoT Integration** – ESP32 microcontroller for real-time monitoring  
+- 📅 **Booking System** – Web interface for EV charging slot reservations  
+- 📱 **Remote Monitoring** – Tkinter GUI simulation & mobile-friendly web interface  
+- 🔒 **Secure Authentication** – User login and admin panel  
+- 🌱 **Energy Efficiency** – Optimized solar power utilization  
 
 
-https://github.com/user-attachments/assets/7ba59364-288c-4c25-86f4-bed7e43140ff
 
- 
+---
 
-## 🔧 Installation & Setup  
+## 🛠 Setup Steps
+1. **Clone the Repository**
 
-### 1️⃣ Clone the Repository  
-```bash
-[git clone https://github.com/your-username/SolarEV-IoT.git]
-(https://github.com/kashiling507/Solar-EV-Charging-IoT-System/blob/main/README.md)
-cd SolarEV
+git clone https://github.com/marthanjoel/Solar-EV-Charging-IoT-System.git
+cd Solar-EV-Charging-IoT-System
+Setup the Database
 
-2️⃣ Setup the Database
 Import database.sql into MySQL
-Update db.php with your database credentials
-3️⃣ Upload Code to ESP32
-Configure WiFi and API endpoints in the ESP32 code
-4️⃣ Run the Web Application
-bash
-Copy
-Edit
-php -S localhost:8000
-🚀 How It Works
-1️⃣ User logs into the system and books a charging slot
-2️⃣ The system checks solar energy availability before approval
-3️⃣ If conditions are met, charging starts automatically
-4️⃣ Users can monitor charging status in real-time
-5️⃣ Payment & usage history available in the dashboard
 
-📞 Contact
-👤 Name: Kashiling Rajage
-📧 Email: kashiling507@gmail.com
-📱 Phone: 7028853736 / 8956405108
+Update db.php with your database credentials
+
+Upload Code to ESP32
+
+Configure WiFi credentials and API endpoints
+
+Run the Web Application
+php -S localhost:8000
+Run the Tkinter Simulation GUI
+python3 app.py
+The GUI simulates solar energy availability and charging slot status.
+
+--
+
+🧩 How the Simulation Works
+Tkinter GUI updates solar energy availability every 5 seconds
+
+EV slots are displayed as interactive buttons
+
+Charging starts automatically if solar conditions are sufficient
+
+Real-time status and alerts are simulated for testing
+<img width="1366" height="768" alt="Screenshot from 2025-09-10 16-31-13" src="https://github.com/user-attachments/assets/525a7286-fee0-4eba-b441-e23230279f8e" />
+
+
+
+
+---
+🔌 Sensors / Devices Emulated
+☀ Solar Panels – Simulated solar energy availability
+
+🖥 ESP32 Microcontroller – Real-time data monitoring
+
+🚗 EV Charging Slots – Simulated booking slots in Tkinter GUI
+
+⚠ Challenges Faced
+Integrating IoT sensor data with a web-based booking system
+
+Simulating solar energy availability without actual hardware
+
+Ensuring real-time GUI updates and responsiveness
+
+Handling concurrent EV bookings and automated charging logic
+
+
+--
+
+💡 Future Improvements
+Integrate live MQTT communication between ESP32 and Tkinter GUI
+
+Display real-time solar energy graphs in the GUI
+
+Add payment gateway integration for automated billing
+
+Mobile app support for remote monitoring & booking
+
+Notifications/alerts for charging completion or low solar availability
+
+Optimize GUI design with interactive visual dashboards
+
+Add AI-based prediction for solar energy availability and optimal charging schedules
+
+--
+
+🖥 Technologies Used
+ESP32 / NodeMCU – IoT microcontroller
+
+Solar Panels – Renewable energy source (simulated)
+
+PHP & MySQL – Backend for booking management
+
+HTML, CSS, Bootstrap – Web interface
+
+Firebase / MQTT – Real-time updates (optional)
+
+Python (Tkinter) – Simulation GUI
+
+
+--
+👤 Author
+LUTWAMA JOEL MARTHAN
+📧 Email: lutwamajoelmarthan@gmail.com
+
